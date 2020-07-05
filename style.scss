@@ -41,7 +41,7 @@ img{
   margin-top: 80px;
 }
 .skill{
-  margin: 0 50px 120px 50px;
+  margin: 0 40px 120px 40px;
   p{
     width: 35%;
     font-weight: 200;
@@ -368,6 +368,7 @@ footer{
         display: block;
         margin: 0 auto;
         padding: 10px;
+        line-height: 1.83;
       }
       &-1{
         display: block;
@@ -442,6 +443,7 @@ footer{
       }
       &-rigth{
         padding-top: 70px;
+        margin: 0 auto;
         p{
           text-align: center;
 
@@ -477,7 +479,7 @@ footer{
 
   @media screen and (max-width: 375px) {
     .header{
-      padding: 10px;
+      padding: 15px;
     }
     .header-left{
       width: 45%;
@@ -487,49 +489,156 @@ footer{
       color: #5F2201;
       padding-left: 250px;
     }
+
+    .skill-h1{
+      text-align: center;
+      color: #5F2201;
+      font-size: 20px;
+      margin-top: 40px;
+    }
     .skill{
-      p{
-        width: 96%;
-        font-size: 15px;
-        display: block;
-        margin: 0 auto;
-        padding: 5px;
-      }
+      margin: 0 0 20px 0;
+
       &-1{
         display: block;
-        margin: 0;
+        margin: 0 15px;
         padding-bottom: 30px;
         img{
-         width: 95%;
+         width: 100%;
          display: block;
          margin: 0 auto;
+        }
+        p{
+          color: black;
+          font-size: 14px;
+          width: 100%;
+          margin: 0;
+          padding: 20px 0 0 0;
+
         }
       }
       &-2{
         display: block;
-        margin: 0;
+        margin: 0 15px;
         padding-bottom: 30px;
         img{
-          width: 95%;
+          width: 100%;
           display: block;
           margin: 0 auto;
+        }
+        p{
+          color: black;
+          font-size: 14px;
+          width: 100%;
+          margin: 0;
+          padding: 20px 0 0 0;
+
+        }
+      }
+    }
+    .about-h1{
+      text-align: center;
+      color: #5F2201;
+      font-size: 20px;
+      padding: 55px 0px 35px 0;
+      margin: 0;
+
+    }
+    .About{
+      background: #FFF3DD;
+      padding: 0px 0px 50px 0;
+
+    }
+    .about{
+      display: block;
+      margin: 0 0;
+      p{
+        padding: 10px 30px 0 30px;
+        font-size: 14px;
+        color: black;
+        font-weight: 200;
+      }
+      &-1{
+        text-align: center;
+        img{
+          width: 66%;
+        }
+      }
+      &-2{
+        text-align: center;
+        img{
+          width: 66%;
         }
       }
     }
     .button{
       text-align: center;
       background: white;
-      width: 35%;
-      height: 50px;
-      line-height: 20px;
+      width: 120px;
+      height: 48px;
+      line-height: 16px;
       margin: 0 auto;
       border: solid 3px #5F2201;
       border-radius: 30px;
       p{
         color: #5F2201;
         font-weight: bold;
+        font-size: 15px;
       }
     }
+    .contact-h1{
+      text-align: center;
+      color: #5F2201;
+      font-size: 20px;
+      margin-top: 45px;
+      margin-bottom: 35px;
+
+    }
+    .contact{
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 60px;
+
+      &-left{
+        width: 300px;
+        display: block;
+          margin: 0 auto;
+        img{
+        }
+      }
+      &-rigth{
+        padding-top: 30px;
+        margin: 0 auto;
+        p{
+          text-align: center;
+          color: black;
+          font-weight: 200;
+          margin-bottom: 26px;
+        }
+        .buttons-2{
+          text-align: center;
+          background: white;
+          width: 100px;
+          height: 48px;
+          line-height: 19px;
+          margin: 0 auto;
+          border: solid 3px #5F2201;
+          border-radius: 30px;
+          p{
+            color: #5F2201;
+            font-size: 15px;
+            font-weight: bold;
+
+          }
+        }
+      }
+    }
+      p{
+        color: #5F2201;
+        font-size: 12px;
+        font-weight: medium;
+      }
+
     footer{
       background: #707070;
       opacity: 0.5;
