@@ -114,14 +114,16 @@ img{
 }
 .button{
   text-align: center;
-  margin: 50px auto 0 auto;
+  margin: 48px auto 5px auto;
   border: 3px solid var(--unnamed-color-5f2201);
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border: 3px solid #5F2201;
   border-radius: 25px;
   opacity: 1;
-  width: 117px;
-  height: 45px;
+  width: 120px;
+  height: 50px;
+  box-sizing: border-box;
+
 
   p{
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -173,8 +175,9 @@ img{
       border: 3px solid #5F2201;
       border-radius: 25px;
       opacity: 1;
-      width: 96px;
-      height: 46px;
+      width: 100px;
+      height: 50px;
+      box-sizing: border-box;
 
       p{
         font: Bold var(--unnamed-font-size-16)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-yugothic);
@@ -185,7 +188,7 @@ img{
         letter-spacing: 0px;
         color: #5F2201;
         margin: 0;
-        line-height: 48px;
+        line-height: 2.5;
         }
     }
   }
@@ -479,20 +482,7 @@ footer{
           text-align: center;
 
         }
-        .buttons-2{
-          text-align: center;
-          background: white;
-          width: 25%;
-          height: 43px;
-          line-height: 10px;
-          margin: 0 auto;
-          border: solid 3px #5F2201;
-          border-radius: 30px;
-          p{
-            color: #5F2201;
-            font-weight: 600;
-          }
-        }
+
       }
     }
     footer{
@@ -646,15 +636,15 @@ footer{
     }
     .button{
       text-align: center;
-      width: 116px;
-      height: 42px;
+      width: 120px;
+      height: 48px;
       border: 3px solid var(--unnamed-color-5f2201);
       background: #FFFFFF 0% 0% no-repeat padding-box;
       border: 3px solid #5F2201;
       border-radius: 25px;
 
       p{
-        line-height: 45px;
+        line-height: 2.8;
         letter-spacing: 0px;
         color: #5F2201;
       }
@@ -696,9 +686,8 @@ footer{
         .buttons-2{
           text-align: center;
           background: white;
-          width: 93px;
-          height: 43px;
-          line-height: 13px;
+          width: 100px;
+          height: 48px;
           margin: 0 auto;
           border: solid 3px #5F2201;
           border-radius: 30px;
@@ -706,7 +695,7 @@ footer{
             color: #5F2201;
             font-size: 15px;
             font-weight: bold;
-
+            line-height: 2.9;
           }
         }
       }
