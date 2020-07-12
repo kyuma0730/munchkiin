@@ -155,7 +155,7 @@ img{
 .contact{
   display: flex;
   justify-content: space-between;
-  margin: 0 320px;
+  margin: 0 22.1%;
   &-left{
     img{
       width: 100%;
@@ -309,26 +309,29 @@ footer{
       margin-bottom: 100px;
     }
     .skill{
-      margin: 0px 0px 60px 0px;
+      margin: 0px 0px 80px 0px;
       p{
-        width: 35%;
+        width: 50%;
         font-weight: 200;
+
       }
       &-1{
         display: flex;
-        justify-content: space-around;
-        margin: 0px;
+
+        margin: 0px 0 100px 0;
         img{
-          width: 33%;
+          width: 300px;
+          margin: 0;
         }
       }
       &-2{
         display: flex;
-        justify-content: space-around;
-        margin: 0px;
+
+        margin: 0;
         img{
-          width: 33%;
+          width: 300px;
           order: 2;
+          margin: 0;
         }
       }
     }
@@ -725,13 +728,14 @@ footer{
         font-size: 15px;
         display: block;
         margin: 0 auto;
-        padding: 5px;
+        padding: 0px;
+
 
       }
       &-1{
         display: block;
         margin: 0;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
         img{
           width: 95%;
           display: block;
@@ -741,7 +745,40 @@ footer{
       &-2{
         display: block;
         margin: 0;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
+        img{
+          width: 95%;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 329px) {
+    .skill{
+      p{
+        width: 98%;
+        font-size: 15px;
+        display: block;
+        margin: 0 auto;
+        padding: 0px;
+
+
+      }
+      &-1{
+        display: block;
+        margin: 0;
+        padding-bottom: 120px;
+        img{
+          width: 95%;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+      &-2{
+        display: block;
+        margin: 0;
+        padding-bottom: 120px;
         img{
           width: 95%;
           display: block;
